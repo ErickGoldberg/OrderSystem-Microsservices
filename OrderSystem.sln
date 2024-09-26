@@ -3,37 +3,37 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35303.130
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderService.API", "OrderService\OrderService.API\OrderService.API.csproj", "{F74828CF-5CC6-4061-B1B8-CC153B4B5AC7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderSystem.OrderService.API", "OrderSystem.OrderService\OrderService.API\OrderSystem.OrderService.API.csproj", "{F74828CF-5CC6-4061-B1B8-CC153B4B5AC7}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OrderService", "OrderService", "{9CE29358-2C65-4E5E-BB16-F8D6C8365E87}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OrderSystem.OrderService", "OrderSystem.OrderService", "{9CE29358-2C65-4E5E-BB16-F8D6C8365E87}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PaymentService", "PaymentService", "{6A991D3E-9396-4D7B-9996-9B3B6454A65A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OrderSystem.PaymentService", "OrderSystem.PaymentService", "{6A991D3E-9396-4D7B-9996-9B3B6454A65A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentService.API", "PaymentService.API\PaymentService.API.csproj", "{6B785785-D108-4411-A2A8-56A1339CF7D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderSystem.PaymentService.API", "OrderSystem.PaymentService\PaymentService.API\OrderSystem.PaymentService.API.csproj", "{6B785785-D108-4411-A2A8-56A1339CF7D0}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DeliveryService", "DeliveryService", "{D495D1BF-C430-4182-8DBC-FB72B6FB55D9}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OrderSystem.DeliveryService", "OrderSystem.DeliveryService", "{D495D1BF-C430-4182-8DBC-FB72B6FB55D9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeliveryService.API", "DeliveryService.API\DeliveryService.API.csproj", "{342771BD-AA1B-40AD-8770-6D7BC30C57C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderSystem.DeliveryService.API", "OrderSystem.DeliveryService\DeliveryService.API\OrderSystem.DeliveryService.API.csproj", "{342771BD-AA1B-40AD-8770-6D7BC30C57C0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentService.Domain", "PaymentService.Domain\PaymentService.Domain.csproj", "{657F7A2E-000B-4F90-AEB4-1E8EE0CD4F12}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderSystem.PaymentService.Domain", "OrderSystem.PaymentService\PaymentService.Domain\OrderSystem.PaymentService.Domain.csproj", "{657F7A2E-000B-4F90-AEB4-1E8EE0CD4F12}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentService.Application", "PaymentService.Application\PaymentService.Application.csproj", "{CD8BF098-1775-4727-90E1-F9B495B722CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderSystem.PaymentService.Application", "OrderSystem.PaymentService\PaymentService.Application\OrderSystem.PaymentService.Application.csproj", "{CD8BF098-1775-4727-90E1-F9B495B722CF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentService.Infrastructure", "PaymentService.Infrastructure\PaymentService.Infrastructure.csproj", "{B5F18BFF-5265-475F-BA75-BFBB492B5C5E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderSystem.PaymentService.Infrastructure", "OrderSystem.PaymentService\PaymentService.Infrastructure\OrderSystem.PaymentService.Infrastructure.csproj", "{B5F18BFF-5265-475F-BA75-BFBB492B5C5E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderService.Domain", "OrderService\OrderService.Domain\OrderService.Domain.csproj", "{A9B84C18-BF6D-4BFB-B962-0CBCE0F32A99}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderSystem.OrderService.Domain", "OrderSystem.OrderService\OrderService.Domain\OrderSystem.OrderService.Domain.csproj", "{A9B84C18-BF6D-4BFB-B962-0CBCE0F32A99}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderService.Application", "OrderService\OrderService.Application\OrderService.Application.csproj", "{F0AD56E6-235D-4880-B251-DCB5A26C645A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderSystem.OrderService.Application", "OrderSystem.OrderService\OrderService.Application\OrderSystem.OrderService.Application.csproj", "{F0AD56E6-235D-4880-B251-DCB5A26C645A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderService.Infrastructure", "OrderService\OrderService.Infrastructure\OrderService.Infrastructure.csproj", "{9AF47FBB-0903-4CF1-8DE0-7A48FA46F3B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderSystem.OrderService.Infrastructure", "OrderSystem.OrderService\OrderService.Infrastructure\OrderSystem.OrderService.Infrastructure.csproj", "{9AF47FBB-0903-4CF1-8DE0-7A48FA46F3B8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeliveryService.Domain", "DeliveryService,Domain\DeliveryService.Domain.csproj", "{E0A9796D-2121-4F81-A8E6-49D769A1690C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderSystem.DeliveryService.Domain", "OrderSystem.DeliveryService\DeliveryService.Domain\OrderSystem.DeliveryService.Domain.csproj", "{E0A9796D-2121-4F81-A8E6-49D769A1690C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeliveryService.Application", "DeliveryService.Application\DeliveryService.Application.csproj", "{82165FBB-D968-420A-B626-4A3C6B5A3F7E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderSystem.DeliveryService.Application", "OrderSystem.DeliveryService\DeliveryService.Application\OrderSystem.DeliveryService.Application.csproj", "{82165FBB-D968-420A-B626-4A3C6B5A3F7E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeliveryService.Infrastructure", "DeliveryService.Infrastructure\DeliveryService.Infrastructure.csproj", "{5063C85E-ADF0-4C86-BC39-E6BCA776EACE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderSystem.DeliveryService.Infrastructure", "OrderSystem.DeliveryService\DeliveryService.Infrastructure\OrderSystem.DeliveryService.Infrastructure.csproj", "{5063C85E-ADF0-4C86-BC39-E6BCA776EACE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiGateway", "ApiGateway\ApiGateway.csproj", "{A1A5B313-535C-4A42-B55E-B9E8FB3E8B8B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderSystem.ApiGateway", "OrderSystem.ApiGateway\OrderSystem.ApiGateway.csproj", "{A1A5B313-535C-4A42-B55E-B9E8FB3E8B8B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
