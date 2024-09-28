@@ -35,6 +35,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderSystem.DeliveryService
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderSystem.ApiGateway", "OrderSystem.ApiGateway\OrderSystem.ApiGateway.csproj", "{A1A5B313-535C-4A42-B55E-B9E8FB3E8B8B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderSystem.Common", "OrderSystem.Common\OrderSystem.Common.csproj", "{DB5316B0-F380-40C9-8ECA-054AE3D3E4FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{A1A5B313-535C-4A42-B55E-B9E8FB3E8B8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1A5B313-535C-4A42-B55E-B9E8FB3E8B8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1A5B313-535C-4A42-B55E-B9E8FB3E8B8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB5316B0-F380-40C9-8ECA-054AE3D3E4FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB5316B0-F380-40C9-8ECA-054AE3D3E4FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB5316B0-F380-40C9-8ECA-054AE3D3E4FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB5316B0-F380-40C9-8ECA-054AE3D3E4FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
