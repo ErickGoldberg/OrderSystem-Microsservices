@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.Caching.Memory;
 using Microsoft.Extensions.Logging;
 
-namespace OrderSystem.Common.Cache
+namespace Utilities.Cache
 {
     public class CacheHelper : ICacheService
     {

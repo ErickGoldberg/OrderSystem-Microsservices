@@ -1,6 +1,6 @@
-﻿using OrderSystem.Common.Domain.Enums;
+﻿using Utilities.Domain.Enums;
 
-namespace OrderSystem.Common.Domain
+namespace Utilities.Domain
 {
     public abstract class BaseEntity
     {

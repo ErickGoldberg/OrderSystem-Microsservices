@@ -1,7 +1,7 @@
 ﻿using System.Security.Cryptography;
 using System.Text;
 
-namespace OrderSystem.Common.Security
+namespace Utilities.Security
 {
     public static class CryptographyHelper
     {

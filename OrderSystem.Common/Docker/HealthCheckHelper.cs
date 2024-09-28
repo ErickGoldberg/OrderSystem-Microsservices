@@ -1,4 +1,4 @@
-﻿namespace OrderSystem.Common.Docker
+﻿namespace Utilities.Docker
 {
     public class HealthCheckHelper
     {

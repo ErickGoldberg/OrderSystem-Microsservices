@@ -2,7 +2,7 @@
 using Newtonsoft.Json;
 using RabbitMQ.Client;
 
-namespace OrderSystem.Common.MessageBus
+namespace Utilities.MessageBus
 {
     public class EventPublisher
     {

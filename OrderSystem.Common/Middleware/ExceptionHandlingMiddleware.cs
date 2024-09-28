@@ -1,8 +1,8 @@
-﻿using Microsoft.Extensions.Logging;
-using System.Net;
+﻿using System.Net;
 using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.Logging;
 
-namespace OrderSystem.Common.Middleware
+namespace Utilities.Middleware
 {
     public class ExceptionHandlingMiddleware
     {

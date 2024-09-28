@@ -2,7 +2,7 @@
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 
-namespace OrderSystem.Common.MessageBus
+namespace Utilities.MessageBus
 {
     public class EventSubscriber(IModel channel)
     {

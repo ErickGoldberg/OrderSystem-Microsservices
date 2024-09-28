@@ -1,4 +1,4 @@
-﻿namespace OrderSystem.Common.Cache
+﻿namespace Utilities.Cache
 {
     public interface ICacheService
     {
