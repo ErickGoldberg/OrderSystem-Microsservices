@@ -8,8 +8,10 @@
 
   <ItemGroup>
     <Folder Include="AggregateRoot\" />
-    <Folder Include="Entities\" />
-    <Folder Include="Enums\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\OrderSystem.Common\Utilities.csproj" />
   </ItemGroup>
 
 </Project>
