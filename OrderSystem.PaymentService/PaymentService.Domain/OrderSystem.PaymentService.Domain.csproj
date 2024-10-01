@@ -7,10 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="AggregateRoot\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\..\OrderSystem.Common\Utilities.csproj" />
   </ItemGroup>
 
